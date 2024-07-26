@@ -41,7 +41,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "public/logolibrary.png",
+    img: "https://drive.google.com/file/d/1DfJLgasoEM7skxAZaDVOUDdpZD0dEQkj/view?usp=sharing",
     title: "PL Library Management System",
     role: "Full Stack Developer",
     date: "July 2023 - October 2023",
@@ -85,7 +85,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "public/logoflutter.png",
+    img: "blob:https://www.facebook.com/f978559f-d8cf-4765-bb0f-202f16f9a871",
     title: "Movie+",
     role: "Flutter Developer",
     date: "May 2024 - July 2024",

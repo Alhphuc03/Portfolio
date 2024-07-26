@@ -19,7 +19,7 @@ const IntroductionSection = () => {
           </p>
           <div className="cv-container">
             <a
-              href="https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view"
+              href="https://drive.google.com/file/d/1OKNmTL01ONzzoxPWCAa7QHNBr4rRXWA5/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="cv"
