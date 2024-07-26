@@ -148,6 +148,6 @@ export const contacts = [
   {
     id: 2,
     logo: "https://e7.pngegg.com/pngimages/945/191/png-clipart-gmail-logo-computer-icons-gmail-scalable-graphics-email-gmail-size-icon-angle-text.png",
-    content: "https://github.com/Alhphuc03",
+    content: "lhphuc03@gmai.com",
   },
 ];

@@ -12,7 +12,7 @@ const Contact = () => {
           {contacts.map((contacts, index) => (
             <div className="contact-card" key={index}>
               <div className="contact-item" key={index}>
-                <a href="" className="flex gap-4">
+                <a href={contacts.content} className="flex gap-4">
                   <img
                     className="contact-image"
                     src={contacts.logo}
