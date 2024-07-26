@@ -1,0 +1,119 @@
+.footer-container {
+  background-color: rgba(3, 7, 14, 0.83);
+  max-width: 100%;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.title-footer {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  margin: 30px 0;
+}
+.nav-footer {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link-footer {
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.social-media-icon {
+  color: white;
+  font-size: 24px;
+  margin: 30px 0 20px 0;
+}
+
+.copyright {
+  color: grey;
+}
+@media (max-width: 1024px) {
+  .nav-footer {
+    width: 70%;
+  }
+}
+
+/* Đối với màn hình có chiều rộng từ 960px trở xuống */
+@media (max-width: 960px) {
+  .nav-footer {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-link-footer {
+    margin-bottom: 10px;
+  }
+
+  .social-media-icons {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+/* Đối với màn hình có chiều rộng từ 760px trở xuống */
+@media (max-width: 760px) {
+  .title-footer {
+    font-size: 20px;
+  }
+
+  .nav-link-footer {
+    font-size: 16px;
+  }
+
+  .social-media-icon {
+    font-size: 20px;
+  }
+}
+
+/* Đối với màn hình có chiều rộng từ 480px trở xuống */
+@media (max-width: 480px) {
+  .footer-wrapper {
+    padding: 10px;
+  }
+
+  .title-footer {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  .nav-footer {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .nav-link-footer {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .social-media-icons {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .social-media-icon {
+    font-size: 18px;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+}

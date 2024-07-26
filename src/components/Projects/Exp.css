@@ -1,0 +1,110 @@
+.card-project {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: rgba(3, 7, 14, 0.83);
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 6px;
+}
+
+.top {
+  display: flex;
+  justify-content: start;
+}
+.body {
+  margin-left: 15px;
+}
+
+.image-project {
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+}
+.title-project {
+  font-size: 24px;
+  color: white;
+}
+.role-project {
+  font-size: 18px;
+  color: rgba(242, 243, 244, 0.8);
+}
+.date-project {
+  font-size: 16px;
+  color: rgba(242, 243, 244, 0.6);
+}
+.description-project {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(177, 178, 179);
+}
+.span-des {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(242, 243, 244, 0.6);
+}
+
+.skills b,
+.features b {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(177, 178, 179);
+}
+
+.item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item-wrapper .skill {
+  width: max-content;
+  padding: 5px 10px;
+  list-style: none;
+  font-size: 16px;
+  transition: ease 1s;
+  cursor: pointer;
+}
+.item-wrapper .skill:hover {
+  background-color: #262340;
+  color: white;
+}
+.feature-category ul {
+  list-style: disc;
+}
+.feature-category li {
+  list-style: disc;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(242, 243, 244, 0.6);
+  margin-left: 3%;
+}
+
+.features p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(242, 243, 244, 0.6);
+}
+
+.button-github b,
+.button-deloy b {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(177, 178, 179);
+}
+
+.button-deloy span,
+.button-github span {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(242, 243, 244, 0.6);
+}

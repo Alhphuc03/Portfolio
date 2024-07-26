@@ -1,0 +1,201 @@
+/* #education {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+} */
+
+#education {
+  padding: 0 15px;
+}
+.education-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.eduction-content {
+  width: 100%;
+  max-width: 500px;
+  background-color: rgba(3, 7, 14, 0.83);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border-radius: 16px;
+  padding: 18px 36px;
+}
+.education-title {
+  margin-top: 20px;
+  font-size: 52px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  color: rgb(242, 243, 244);
+}
+
+.education-desc {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(177, 178, 179);
+}
+
+.eduction-content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.school-name,
+.gpa,
+.study-period,
+.currentYear {
+  font-size: 24px;
+  color: white;
+}
+.school-name span,
+.study-period span,
+.study-period span,
+.gpa span,
+.currentYear span {
+  font-size: 18px;
+  color: rgb(177, 178, 179);
+}
+@media (max-width: 1024px) {
+  .education-title {
+    font-size: 40px;
+  }
+
+  .education-desc {
+    font-size: 16px;
+  }
+
+  .eduction-content {
+    padding: 16px 24px;
+    max-width: 100%;
+  }
+
+  .education-card {
+    padding: 16px 24px;
+  }
+
+  .school-name,
+  .gpa,
+  .study-period,
+  .currentYear {
+    font-size: 20px;
+  }
+
+  .school-name span,
+  .study-period span,
+  .gpa span,
+  .currentYear span {
+    font-size: 16px;
+  }
+}
+
+/* Đối với màn hình có chiều rộng từ 960px trở xuống */
+@media (max-width: 960px) {
+  .education-title {
+    font-size: 36px;
+  }
+
+  .education-desc {
+    font-size: 14px;
+  }
+
+  .eduction-content {
+    padding: 14px 20px;
+    max-width: 100%;
+  }
+
+  .education-card {
+    padding: 14px 20px;
+  }
+
+  .school-name,
+  .gpa,
+  .study-period,
+  .currentYear {
+    font-size: 18px;
+  }
+
+  .school-name span,
+  .study-period span,
+  .gpa span,
+  .currentYear span {
+    font-size: 14px;
+  }
+}
+
+/* Đối với màn hình có chiều rộng từ 760px trở xuống */
+@media (max-width: 760px) {
+  .education-title {
+    font-size: 28px;
+  }
+
+  .education-desc {
+    font-size: 12px;
+  }
+
+  .eduction-content {
+    padding: 12px 16px;
+    max-width: 100%;
+  }
+
+  .education-card {
+    padding: 12px 16px;
+  }
+
+  .school-name,
+  .gpa,
+  .study-period,
+  .currentYear {
+    font-size: 16px;
+  }
+
+  .school-name span,
+  .study-period span,
+  .gpa span,
+  .currentYear span {
+    font-size: 12px;
+  }
+}
+
+/* Đối với màn hình có chiều rộng từ 480px trở xuống */
+@media (max-width: 480px) {
+  .education-wrapper {
+    padding: 15px;
+  }
+
+  .education-title {
+    font-size: 24px;
+  }
+
+  .education-desc {
+    font-size: 10px;
+  }
+
+  .eduction-content {
+    padding: 10px 12px;
+    max-width: 100%;
+  }
+
+  .education-card {
+    padding: 10px 12px;
+  }
+
+  .school-name,
+  .gpa,
+  .study-period,
+  .currentYear {
+    font-size: 14px;
+  }
+
+  .school-name span,
+  .study-period span,
+  .gpa span,
+  .currentYear span {
+    font-size: 10px;
+  }
+}
