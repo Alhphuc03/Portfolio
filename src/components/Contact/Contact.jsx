@@ -16,9 +16,9 @@ const Contact = () => {
                   <img
                     className="contact-image"
                     src={contacts.logo}
-                    alt={contacts.content}
+                    alt={contacts.title}
                   />
-                  <span>{contacts.content}</span>
+                  <span>{contacts.title}</span>
                 </a>
               </div>
             </div>

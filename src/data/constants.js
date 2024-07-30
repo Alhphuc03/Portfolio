@@ -15,8 +15,8 @@ export const experiences = [
       "RESTful API",
       "The Movie Database (TMDb) API",
     ],
-    deploy: "https://cineplexus.vercel.app",
-    github: "https://github.com/your-github-repo-link",
+    deploy: "https://cine-plexus.vercel.app/",
+    github: "https://github.com/Alhphuc03/CinePlexus",
     features: {
       userAuthentication: [
         "Secure user registration and login system.",
@@ -41,7 +41,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://drive.google.com/file/d/1DfJLgasoEM7skxAZaDVOUDdpZD0dEQkj/view?usp=sharing",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
     title: "PL Library Management System",
     role: "Full Stack Developer",
     date: "July 2023 - October 2023",
@@ -85,10 +85,10 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "blob:https://www.facebook.com/f978559f-d8cf-4765-bb0f-202f16f9a871",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
     title: "Movie+",
     role: "Flutter Developer",
-    date: "May 2024 - July 2024",
+    date: "April 2024 - July 2024",
     desc: "Movie+ is a mobile application developed using Flutter that offers a comprehensive movie streaming experience. The app is designed to deliver a user-friendly interface and seamless access to a vast database of movies and TV shows, leveraging The Movie Database (TMDb) API to provide rich, interactive content on mobile devices.",
     skills: [
       "Flutter",
@@ -122,13 +122,48 @@ export const experiences = [
       ],
     },
   },
+  {
+    id: 3,
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+    title: "Study Abroad Consulting Website",
+    role: "Lead, Fullstack",
+    date: "Jun 2023 - Sep 2023",
+    desc: "Developed a responsive platform for managing study abroad information, including course details, universities, and scholarships. The website allows users to register, log in, and book consultations, while admins can manage users, courses, and consultations.",
+    skills: [
+      "C#",
+      "ASP.NET Core",
+      "SQL Server",
+      "HTML & CSS",
+      "JavaScript",
+      "jQuery",
+    ],
+    github: "https://github.com/Alhphuc03/DAPM_DUHOC",
+    features: {
+      uiDesign: [
+        "Designed responsive interfaces using HTML, CSS, and JavaScript, ensuring a seamless experience across different devices.",
+      ],
+      courseManagement: [
+        "Implemented functionality to view, search, and sort courses and universities.",
+      ],
+      userAdminManagement: [
+        "Developed features for user registration, login, and consultation booking.",
+        "Built admin functionalities to manage user accounts, course information, and consultations.",
+      ],
+      dataHandling: [
+        "Used C#, ASP.NET Core, and SQL Server for data management and backend operations.",
+      ],
+      teamManagement: [
+        "Led a team of 3 members, coordinating development tasks and ensuring project milestones were met.",
+      ],
+    },
+  },
 ];
 
 export const education = [
   {
     id: 0,
     name: "Ho Chi Minh City University of Foreign Languages and Information Technology (HUFLIT)",
-    studyPeriod: "09-2021 - 07-2025",
+    studyPeriod: "09-2021 - Now",
     gpa: "3.1/4.0",
     currentYear: "3rd year student",
   },
@@ -139,15 +174,18 @@ export const contacts = [
     id: 0,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
     content: "https://github.com/Alhphuc03",
+    title: "https://github.com/Alhphuc03",
   },
   {
     id: 1,
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/facebook/facebook-original.svg",
     content: "https://www.facebook.com/profile.php?id=61551039560313",
+    title: "https://www.facebook.com/profile.php?id=61551039560313",
   },
   {
     id: 2,
     logo: "https://e7.pngegg.com/pngimages/945/191/png-clipart-gmail-logo-computer-icons-gmail-scalable-graphics-email-gmail-size-icon-angle-text.png",
-    content: "lhphuc03@gmai.com",
+    content: "#contact",
+    title: "lhphuc03@gmai.com",
   },
 ];
