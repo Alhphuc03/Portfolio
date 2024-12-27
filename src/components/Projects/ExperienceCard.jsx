@@ -61,16 +61,17 @@ const ExperienceCard = ({ experience }) => {
       </div>
       {experience.deploy && (
         <a href={experience.deploy} target="_blank" rel="noopener noreferrer">
-          <button className="button-deloy">
+          <button className="button-deploy">
             <b>Deploy:</b>
-            <span>{experience.deploy}</span>
+            <span className="deploy-span">{experience.deploy}</span>
           </button>
         </a>
       )}
       {experience.github && (
         <a href={experience.github} target="_blank" rel="noopener noreferrer">
           <button className="button-github">
-            <b>GitHub</b> <span>{experience.github}</span>
+            <b>GitHub</b>{" "}
+            <span className="github-span">{experience.github}</span>
           </button>
         </a>
       )}
@@ -92,4 +93,5 @@ ExperienceCard.propTypes = {
       .isRequired,
   }).isRequired,
 };
+
 export default ExperienceCard;

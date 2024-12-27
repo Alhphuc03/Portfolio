@@ -1,7 +1,26 @@
+import { useEffect, useState } from "react";
 import "./IntroductionSection.css";
+
 const IntroductionSection = () => {
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setHasScrolled(true);
+    } else {
+      setHasScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div id="about">
+    <div id="about" className={hasScrolled ? "scrolled" : ""}>
       <div className="about-container">
         <div className="introduction">
           <h1 className="name">
@@ -12,14 +31,14 @@ const IntroductionSection = () => {
             <div className="position-r">Front End Developer</div>
           </div>
           <p className="description">
-            I am a 3rd year student, a dynamic and flexible individual, always
-            looking to take on new challenges. With a positive attitude and a
-            growth mindset, I am ready to make meaningful contributions and
-            achieve great things.
+            I am a final-year student with a dynamic and adaptable personality,
+            eager to embrace new challenges. Driven by a positive attitude and a
+            growth mindset, I am committed to making meaningful contributions
+            and striving for excellence in everything I undertake.
           </p>
           <div className="cv-container">
             <a
-              href="https://drive.google.com/file/d/1BybuIU_R_oan_L0RCRa0Qmq-oOMrngUP/view"
+              href="https://drive.google.com/file/d/1X0eMn1aP6iMnvPaGuolCSmENSRUrPSRL/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="cv"
@@ -31,7 +50,7 @@ const IntroductionSection = () => {
       </div>
       <div className="about-img">
         <img
-          src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/425740001_122151152048034652_7480462945252868222_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=9eYkirJENz8Q7kNvgH-v12K&_nc_ht=scontent.fsgn5-8.fna&oh=00_AYBRzjmLLh69PIicoMyC0_-8BxBDwO1NfDaef-nxgf7_AA&oe=66A83326"
+          src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/467733429_122208741314034652_630098085793365094_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE6n7uaFF2gMlhNUdOzcNLhXn59h2zn13Fefn2HbOfXcR87sJXGz6XiPzIC7t4I9fagPkKjbKNXnSY12YvrBbgi&_nc_ohc=_8BVWdsNi-4Q7kNvgFOu5TK&_nc_zt=23&_nc_ht=scontent.fsgn5-8.fna&_nc_gid=AdqCLEnzFjL8UNmuVh_Xxv9&oh=00_AYDMsv94SJgj2f-EkTE13CNCS__4f2gjLLAfmprDSOXhHA&oe=67741EE6"
           alt="hero-image"
           className="img-avatar"
         />

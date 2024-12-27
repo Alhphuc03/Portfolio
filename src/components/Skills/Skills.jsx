@@ -1,7 +1,6 @@
 import "./Skills.css";
 
 const skills = [
-  // Đưa dữ liệu skills của bạn vào đây
   {
     title: "Frontend",
     skills: [
@@ -32,7 +31,7 @@ const skills = [
     ],
   },
   {
-    title: "Backend & Databases ",
+    title: "Backend & Databases",
     skills: [
       {
         name: "C#",

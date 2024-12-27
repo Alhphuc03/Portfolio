@@ -1,110 +1,301 @@
-.card-project {
+/* .card-project {
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background-color: rgba(3, 7, 14, 0.83);
+  background-color: rgba(3, 7, 14, 0.9);
   color: rgb(255, 255, 255);
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  border-radius: 6px;
+  box-shadow: rgba(23, 92, 230, 0.2) 0px 8px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-project:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(23, 92, 230, 0.4) 0px 16px 40px;
 }
 
 .top {
   display: flex;
-  justify-content: start;
+  align-items: center;
 }
+
 .body {
   margin-left: 15px;
 }
 
 .image-project {
-  border-radius: 15px;
-  width: 60px;
-  height: 60px;
+  border-radius: 12px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
+
+.image-project:hover {
+  transform: scale(1.05);
+}
+
 .title-project {
-  font-size: 24px;
+  font-size: 26px;
   color: white;
+  margin-bottom: 8px;
+  transition: color 0.3s ease-in-out;
 }
+
 .role-project {
-  font-size: 18px;
+  font-size: 20px;
   color: rgba(242, 243, 244, 0.8);
 }
+
 .date-project {
-  font-size: 16px;
+  font-size: 18px;
   color: rgba(242, 243, 244, 0.6);
 }
+
 .description-project {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 20px;
-  text-align: center;
   color: rgb(177, 178, 179);
 }
+
 .span-des {
   font-size: 16px;
   font-weight: 400;
-  color: rgba(242, 243, 244, 0.6);
+  color: rgba(242, 243, 244, 0.7);
 }
 
 .skills b,
 .features b {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 20px;
-  text-align: center;
   color: rgb(177, 178, 179);
 }
 
 .item-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 10px;
 }
 
 .item-wrapper .skill {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
   width: max-content;
-  padding: 5px 10px;
-  list-style: none;
+  height: 30px;
+  border-radius: 20px;
   font-size: 16px;
-  transition: ease 1s;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+
 .item-wrapper .skill:hover {
   background-color: #262340;
   color: white;
 }
+
 .feature-category ul {
   list-style: disc;
+  padding-left: 20px;
 }
+
 .feature-category li {
-  list-style: disc;
   font-size: 16px;
   font-weight: 400;
-  color: rgba(242, 243, 244, 0.6);
-  margin-left: 3%;
+  color: rgba(242, 243, 244, 0.7);
 }
 
 .features p {
   font-size: 16px;
-  font-weight: 400;
+  color: rgb(230, 230, 230);
+  font-weight: 500;
+}
+
+.button-github,
+.button-deploy {
+  background-color: rgba(23, 92, 230, 0.2);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(177, 178, 179);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button-github:hover,
+.button-deploy:hover {
+  background-color: rgba(23, 92, 230, 0.4);
+  color: white;
+}
+
+.button-deploy span,
+.button-github span {
+  margin-left: 8px;
+  font-size: 16px;
+  color: rgba(242, 243, 244, 0.6);
+} */
+.card-project {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: rgba(3, 7, 14, 0.9);
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(23, 92, 230, 0.2) 0px 8px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-project:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(23, 92, 230, 0.4) 0px 16px 40px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.body {
+  margin-left: 15px;
+}
+
+.image-project {
+  border-radius: 12px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-project:hover {
+  transform: scale(1.05);
+}
+
+.title-project {
+  font-size: 26px;
+  color: white;
+  margin-bottom: 8px;
+  transition: color 0.3s ease-in-out;
+}
+
+.role-project {
+  font-size: 20px;
+  color: rgba(242, 243, 244, 0.8);
+}
+
+.date-project {
+  font-size: 18px;
   color: rgba(242, 243, 244, 0.6);
 }
 
-.button-github b,
-.button-deloy b {
-  font-size: 20px;
+.description-project {
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 20px;
-  text-align: center;
   color: rgb(177, 178, 179);
 }
 
-.button-deloy span,
-.button-github span {
-  margin-left: 10px;
+.span-des {
   font-size: 16px;
   font-weight: 400;
+  color: rgba(242, 243, 244, 0.7);
+}
+
+.skills b,
+.features b {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(177, 178, 179);
+}
+
+.item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.item-wrapper .skill {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  width: max-content;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.skill:hover {
+  background-color: #262340;
+  color: white;
+}
+
+.feature-category ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.feature-category li {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(242, 243, 244, 0.7);
+}
+
+.features p {
+  font-size: 16px;
+  color: rgb(230, 230, 230);
+  font-weight: 500;
+}
+.button-github,
+.button-deploy {
+  background-color: rgba(23, 92, 230, 0.2);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(177, 178, 179);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Căn chỉnh nội dung với khoảng cách đều nhau */
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  overflow: hidden; /* Ẩn nội dung vượt quá kích thước của nút */
+}
+
+.button-github:hover,
+.button-deploy:hover {
+  background-color: rgba(23, 92, 230, 0.4);
+  color: white;
+}
+
+.button-deploy .deploy-span,
+.button-github .github-span {
+  margin: 0 10px; 
+  font-size: 16px;
   color: rgba(242, 243, 244, 0.6);
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+@media (min-width: 768px) {
+  .button-github,
+  .button-deploy {
+    width: auto;
+    display: inline-block;
+    margin: 5px;
+  }
 }

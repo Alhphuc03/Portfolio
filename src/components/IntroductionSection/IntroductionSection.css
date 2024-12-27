@@ -1,12 +1,17 @@
+/* IntroductionSection.css */
+
 #about {
   display: flex;
   padding: 0 15%;
-  margin-top: 100px;
+  margin: 100px 0 60px 0;
+  scroll-behavior: smooth;
 }
 
 .about-container {
   width: 50%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 .about-img {
   width: 45%;
   margin-left: 5%;
@@ -19,12 +24,15 @@
   font-size: 3rem;
   font-weight: bold;
   color: white;
+  animation: fadeIn 1s ease-out forwards;
 }
 
 .description {
   color: grey;
   font-size: 1.5rem;
+  animation: fadeIn 1s ease-out forwards;
 }
+
 .position {
   display: flex;
   align-items: center;
@@ -32,16 +40,25 @@
   margin: 10px 0;
   font-size: 2rem;
 }
+
 .position-l {
   color: white;
 }
+
 .position-r {
   color: red;
 }
+
 .img-avatar {
   width: 400px;
   height: 400px;
   border-radius: 50%;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.img-avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .cv {
@@ -58,14 +75,15 @@
   font-weight: 500;
   text-decoration: none;
   font-size: 16px;
-  transition: all 0.6s ease-in-out;
+  transition: transform 0.4s ease-in-out, background 0.4s ease-in-out;
   background: linear-gradient(to right, #000000, #880000, #990000, #aa0000);
-  transition: ease 2s;
 }
+
 .cv:hover {
-  scale: 1.1;
+  transform: scale(1.1);
+  background: linear-gradient(to right, #880000, #990000, #aa0000, #000000);
 }
-/* For screens smaller than 960px */
+
 @media (max-width: 960px) {
   #about {
     padding: 0 8%;
@@ -77,14 +95,14 @@
   .about-container {
     width: 100%;
     text-align: center;
-    order: 2; /* Ensure introduction is shown below image */
+    order: 2;
   }
 
   .about-img {
     width: 100%;
     margin: 20px 0;
     justify-content: center;
-    order: 1; /* Ensure image is shown above introduction */
+    order: 1;
     transform: rotate(-10deg);
   }
 
@@ -100,7 +118,6 @@
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
-    transform: rotate(-20deg);
   }
 
   .img-avatar {
@@ -114,13 +131,13 @@
     padding: 8px 16px;
     font-size: 14px;
   }
+
   .cv-container {
     display: flex;
     justify-content: center;
   }
 }
 
-/* For screens smaller than 640px */
 @media (max-width: 640px) {
   #about {
     padding: 0 5%;
@@ -159,15 +176,14 @@
     width: 180px;
     padding: 8px 14px;
     font-size: 14px;
-    display: flex;
   }
+
   .cv-container {
     display: flex;
     justify-content: center;
   }
 }
 
-/* For screens smaller than 480px */
 @media (max-width: 480px) {
   #about {
     padding: 0 3%;
@@ -207,8 +223,21 @@
     padding: 6px 12px;
     font-size: 12px;
   }
+
   .cv-container {
     display: flex;
     justify-content: center;
+  }
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

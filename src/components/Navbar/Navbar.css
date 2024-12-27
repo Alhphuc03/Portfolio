@@ -12,6 +12,12 @@
   z-index: 10;
   transition: 0.8s all ease;
   padding: 0 6%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav.scrolled {
+  background-color: rgba(9, 9, 23, 0.9);
+  transition: background-color 0.3s ease-in-out;
 }
 
 .navbar-container {
@@ -62,6 +68,27 @@
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   font-size: 18px;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: red;
+  transition: width 0.4s ease;
+  -webkit-transition: width 0.4s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+  background-color: red;
 }
 
 .nav-link:hover {
@@ -104,6 +131,15 @@
 .menu-icon {
   display: none;
 }
+
+.menu-icon .fa-bars {
+  transition: transform 0.4s ease;
+}
+
+.menu-icon.active .fa-bars {
+  transform: rotate(90deg);
+}
+
 /* Màn hình dưới 960px */
 @media (max-width: 960px) {
   .nav-items {

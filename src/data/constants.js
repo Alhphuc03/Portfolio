@@ -16,7 +16,7 @@ export const experiences = [
       "The Movie Database (TMDb) API",
     ],
     deploy: "https://cine-plexus.vercel.app/",
-    github: "https://github.com/Alhphuc03/CinePlexus",
+    github: "https://github.com/Alhphuc03/Cine_Plexus",
     features: {
       userAuthentication: [
         "Secure user registration and login system.",

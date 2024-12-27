@@ -1,5 +1,5 @@
-import "./Education.css";
 
+import "./Education.css";
 import { education } from "../../data/constants";
 
 const Education = () => {
@@ -11,20 +11,20 @@ const Education = () => {
           Here is a summary of my educational background including schools,
           duration, and GPA.
         </div>
-        <div className="eduction-content">
-          {education.map((education, index) => (
+        <div className="education-content">
+          {education.map((edu, index) => (
             <div className="education-card" key={index}>
               <h3 className="school-name">
-                Name: <span>{education.name}</span>
+                Name: <span>{edu.name}</span>
               </h3>
               <p className="study-period">
-                Education Duration <span>{education.studyPeriod}</span>
+                Education Duration: <span>{edu.studyPeriod}</span>
               </p>
               <p className="gpa">
-                GPA: <span>{education.gpa}</span>
+                GPA: <span>{edu.gpa}</span>
               </p>
               <div className="currentYear">
-                Current year: <span> {education.currentYear}</span>
+                Current year: <span>{edu.currentYear}</span>
               </div>
             </div>
           ))}
