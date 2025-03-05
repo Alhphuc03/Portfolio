@@ -1,0 +1,166 @@
+#experience {
+  padding: 0 15px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+}
+
+@media (max-width: 960px) {
+  .experience-container {
+    padding: 0px;
+  }
+}
+
+.experience-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1350px;
+  padding: 80px 0;
+  gap: 12px;
+}
+
+@media (max-width: 960px) {
+  .experience-wrapper {
+    flex-direction: column;
+  }
+}
+
+.experience-title {
+  margin-top: 20px;
+  font-size: 52px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  color: rgb(242, 243, 244);
+}
+
+.experience-des {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(177, 178, 179);
+}
+
+@media (max-width: 768px) {
+  .experience-title {
+    margin-top: 12px;
+    font-size: 32px;
+  }
+}
+
+.experience-desc {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(177, 178, 179);
+}
+
+@media (max-width: 768px) {
+  .experience-desc {
+    margin-top: 12px;
+    font-size: 16px;
+  }
+}
+
+.timeline-section {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.timeline-connector {
+  background: #854ce6;
+}
+@media (max-width: 1024px) {
+  .experience-wrapper {
+    padding: 60px 10px;
+  }
+}
+
+@media (max-width: 960px) {
+  .experience-wrapper {
+    flex-direction: column;
+  }
+}
+
+.experience-title {
+  margin-top: 20px;
+  font-size: 52px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(242, 243, 244);
+}
+
+.experience-des {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(177, 178, 179);
+}
+
+@media (max-width: 768px) {
+  .experience-title {
+    margin-top: 12px;
+    font-size: 32px;
+  }
+
+  .experience-des {
+    font-size: 16px;
+  }
+}
+
+.experience-desc {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(177, 178, 179);
+}
+
+@media (max-width: 768px) {
+  .experience-desc {
+    font-size: 16px;
+  }
+}
+
+.timeline-section {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.timeline-connector {
+  background: #854ce6;
+}
+
+/* Đối với màn hình có chiều rộng từ 480px trở xuống */
+@media (max-width: 480px) {
+  .experience-title {
+    font-size: 24px;
+  }
+
+  .experience-des {
+    font-size: 14px;
+  }
+
+  .timeline-section {
+    padding: 10px;
+  }
+}

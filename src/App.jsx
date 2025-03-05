@@ -8,14 +8,16 @@ import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import MeteorShower from "./components/MeteorShower";
+import WorkExperience from "./components/WorkExperience/WorkExperience";
 
 function App() {
   return (
     <Router>
-     <MeteorShower   /> 
+      <MeteorShower />
       <Navbar />
       <IntroductionSection />
       <Skills />
+      <WorkExperience />
       <Project />
       <Education />
       <Contact />

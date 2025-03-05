@@ -107,8 +107,9 @@ const Skills = () => {
       <div className="wrapper">
         <h1 className="title">Skills</h1>
         <p className="desc">
-          Here are some of my skills on which I have been working on for the
-          past 2 years.
+          I have been learning and working with these technologies since my
+          early university years, and further enhanced my skills through
+          internships.
         </p>
         <div className="skills-container">
           {skills.map((skill, index) => (

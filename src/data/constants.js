@@ -1,7 +1,47 @@
 export const experiences = [
   {
     id: 0,
-    img: "https://cine-plexus.vercel.app/assets/logoweb-COBM99zI.png",
+    img: "/public/logo_comic.webp",
+    title: "P-Comic",
+    role: "Fullstack Developer | February 2025 - March 2025",
+    date: "June 2024 - July 2024",
+    desc: " A manga reading website with features like browsing new, upcoming, and completed comics, viewing details, reading comics, marking favorites, and supporting user registration with Google login.",
+    skills: [
+      "React Js",
+      "Tailwind CSS",
+      "React Router DOM",
+      "Axios",
+      "RESTful API",
+      "TExpress.js",
+      "bcryptjs",
+      "MongoDB",
+    ],
+    deploy: "https://p-comic.vercel.app/",
+    github: "https://github.com/Alhphuc03/Web_Comic",
+    features: {
+      userAuthentication: [
+        "Secure user registration and login system, including Google OAuth integration.",
+        "Profile management allowing users to update personal information and manage favorites.",
+      ],
+      comicBrowsing: [
+        "Intuitive search functionality to find comics by title, genre, or status (new, upcoming, completed).",
+        "Detailed comic pages with synopsis, chapters, and reader integration.",
+        "Dynamic filtering and sorting options to organize comics by popularity, update date, and genre.",
+      ],
+      personalizedExperience: [
+        "User-specific favorites list to save and manage preferred comics.",
+        "Progress tracking for ongoing comics, allowing users to resume reading.",
+      ],
+      responsiveUI: [
+        "Clean and modern design optimized for desktop and mobile devices.",
+        "Smooth navigation with a focus on user experience and fast load times.",
+        "Interactive elements like modal pop-ups for detailed comic viewing and chapter navigation.",
+      ],
+    },
+  },
+  {
+    id: 1,
+    img: "/logo_cine.png",
     title: "Movie Cineplexus",
     role: "Front end",
     date: "June 2024 - July 2024",
@@ -40,8 +80,8 @@ export const experiences = [
     },
   },
   {
-    id: 1,
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+    id: 2,
+    img: "/public/logolibrary.png",
     title: "PL Library Management System",
     role: "Full Stack Developer",
     date: "July 2023 - October 2023",
@@ -84,7 +124,7 @@ export const experiences = [
     },
   },
   {
-    id: 2,
+    id: 3,
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
     title: "Movie+",
     role: "Flutter Developer",
@@ -123,7 +163,7 @@ export const experiences = [
     },
   },
   {
-    id: 3,
+    id: 4,
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
     title: "Study Abroad Consulting Website",
     role: "Lead, Fullstack",
@@ -187,5 +227,45 @@ export const contacts = [
     logo: "https://e7.pngegg.com/pngimages/945/191/png-clipart-gmail-logo-computer-icons-gmail-scalable-graphics-email-gmail-size-icon-angle-text.png",
     content: "#contact",
     title: "lhphuc03@gmai.com",
+  },
+];
+export const workExperiences = [
+  {
+    id: 0,
+    img: "/public/logo_NTB.jpg", // Hoặc logo công ty, nếu có (đặt trong thư mục public)
+    title: "COMPANY TECHNOLOGY DEVELOPMENT NAM THANH BINH",
+    role: "Intern Fullstack Developer",
+    date: "July 2024 - October 2024",
+    desc: "Worked as an intern Fullstack Developer, developing cross-platform mobile applications with Flutter, backend APIs and web apps using ASP.NET, and WinForms desktop applications. Optimized SQL Server databases for performance and scalability, ensured system stability, and deployed applications to hosting environments.",
+    skills: [
+      "Flutter",
+      "ASP.NET",
+      "SQL Server",
+      "C#",
+      "JavaScript",
+      "Responsive Design",
+      "Performance Optimization",
+    ],
+    github: null,
+    deploy: null,
+    features: {
+      appDevelopment: [
+        "Developed cross-platform mobile applications with Flutter.",
+        "Integrated APIs and managed app state for seamless functionality.",
+      ],
+      webDevelopment: [
+        "Developed backend APIs and web apps using ASP.NET.",
+        "Designed and optimized SQL Server databases for performance and scalability.",
+        "Created responsive, user-friendly web interfaces.",
+      ],
+      winformDevelopment: [
+        "Built and maintained WinForms desktop applications.",
+        "Integrated databases and enhanced UI/UX for better functionality.",
+      ],
+      deploymentMaintenance: [
+        "Deployed applications to hosting environments.",
+        "Ensured system stability and optimized performance.",
+      ],
+    },
   },
 ];
