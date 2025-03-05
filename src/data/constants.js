@@ -1,7 +1,7 @@
 export const experiences = [
   {
     id: 0,
-    img: "/public/logo_comic.webp",
+    img: "/logo_comic.webp",
     title: "P-Comic",
     role: "Fullstack Developer | February 2025 - March 2025",
     date: "June 2024 - July 2024",
@@ -81,7 +81,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "/public/logolibrary.png",
+    img: "/logolibrary.png",
     title: "PL Library Management System",
     role: "Full Stack Developer",
     date: "July 2023 - October 2023",
@@ -232,7 +232,7 @@ export const contacts = [
 export const workExperiences = [
   {
     id: 0,
-    img: "/public/logo_NTB.jpg", // Hoặc logo công ty, nếu có (đặt trong thư mục public)
+    img: "/logo_NTB.jpg", // Hoặc logo công ty, nếu có (đặt trong thư mục public)
     title: "COMPANY TECHNOLOGY DEVELOPMENT NAM THANH BINH",
     role: "Intern Fullstack Developer",
     date: "July 2024 - October 2024",

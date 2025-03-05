@@ -1,6 +1,6 @@
 import { workExperiences } from "../../data/constants";
 import ExperienceCard from "../Projects/ExperienceCard";
-
+import "./WorkExperience.css";
 const WorkExperience = () => {
   return (
     <div className="experience-container" id="work-experience">
