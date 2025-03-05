@@ -13,6 +13,9 @@ function Footer() {
           <a href="#skills" className="nav-link-footer">
             Skills
           </a>
+          <a href="#work-experience" className="nav-link-footer">
+            Work Experience
+          </a>
           <a href="#project" className="nav-link-footer">
             Projects
           </a>
